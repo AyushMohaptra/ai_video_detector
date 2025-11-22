@@ -95,6 +95,4 @@ the detector. Please follow these guidelines to make reviews and CI easier.
 
 
 License
-- This repository includes a `LICENSE` (MIT) file. Change or replace the
-  license as appropriate for your project.
-no-quiet` to show them.
+- This repository includes a `LICENSE` (MIT) file.
