@@ -130,9 +130,3 @@ Notes
 	head motion) and therefore does not include or need pretrained model files.
 - The `--quiet` flag (default) in `body_dynamics.py` suppresses native
 	MediaPipe/TensorFlow/OpenGL logs. Use `--no-quiet` to show them.
-
-Contributing
-- Add tests under `tests/` and small sample videos under `data/samples/` for CI.
-
-License
-- Add a `LICENSE` file if you want to publish under a specific license.
