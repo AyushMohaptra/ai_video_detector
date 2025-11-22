@@ -97,36 +97,4 @@ the detector. Please follow these guidelines to make reviews and CI easier.
 License
 - This repository includes a `LICENSE` (MIT) file. Change or replace the
   license as appropriate for your project.
-
-```
-# AI Video Detector
-
-Lightweight heuristic detector to analyze videos for likely AI-generation using
-body and temporal motion cues. This project does not require any pretrained
-machine-learning model — the detection is based on deterministic heuristics
-implemented in `detector/body_dynamics.py` (face + motion + temporal checks).
-
-Contents
-- `detector/`: main analysis scripts (face, motion, temporal inconsistency)
-
-Quick start
-
-1. Create a virtual environment and install dependencies:
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
-
-2. Run the main heuristic detector (no models required):
-
-```bash
-python detector/body_dynamics.py data/samples/example.mp4
-```
-
-Notes
-- This repository implements heuristic checks (optical flow, blink/mouth stats,
-	head motion) and therefore does not include or need pretrained model files.
-- The `--quiet` flag (default) in `body_dynamics.py` suppresses native
-	MediaPipe/TensorFlow/OpenGL logs. Use `--no-quiet` to show them.
+no-quiet` to show them.
