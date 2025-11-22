@@ -1,5 +1,4 @@
-```markdown
-# AI Video Detector
+AI Video Detector
 
 Lightweight heuristic detector to analyze videos for likely AI-generation
 using body and temporal motion cues. The detector uses deterministic heuristics
